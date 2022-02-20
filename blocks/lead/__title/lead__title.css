@@ -1,0 +1,26 @@
+.lead__title {
+  width: 720px;
+  /*width: calc(100vw - 152px*2);*/
+  margin: 0 auto;
+  margin-top: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+@media screen and (min-width: 1025px) {
+  .lead__title {
+    margin-top: calc(0.035*100vw + 12px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    width: calc(0.964*100vw - 20.352px);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

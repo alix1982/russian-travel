@@ -1,0 +1,13 @@
+.header {
+  width: calc(1.009*100vw - 55px);
+  margin: 0 auto;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    width: calc(100vw - 48px*2);
+  }
+}
