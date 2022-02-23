@@ -7,11 +7,6 @@
   line-height: 18px;
 }
 
-.footer__link:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-
 @media screen and (max-width: 600px) {
   .footer__link {
     margin-bottom: 32px;

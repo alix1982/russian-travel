@@ -1,8 +1,8 @@
 .cover__subtitle {
+  margin: 0 100px;
   grid-column: 2/3;
   grid-row: 2/3;
   align-self: end;
-  margin: 0 100px;
   font-family: Inter, Georgia, sans-serif;
   font-style: normal;
   font-weight: normal;

@@ -1,11 +1,11 @@
 .lead {
-  width: calc(0.25*100vw + 670px);
+  width: calc(0.25*100% + 670px);
   margin: 0 auto;
   text-align: center;
 }
 
 @media screen and (max-width: 900px) {
   .lead {
-    width: 100vw;
+    width: 100%;
   }
 }

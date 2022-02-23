@@ -1,16 +1,16 @@
 .places {
-  width: calc(0.22*100vw + 704px);
+  width: calc(0.22*100% + 704px);
   margin: 0 auto;
 }
 
 @media screen and (max-width: 994px) {
   .places {
-    width: calc(0.893*100vw + 34.2857px);
+    width: calc(0.893*100% + 34.2857px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    width: 100vw;
+    width: 100%;
   }
 }
