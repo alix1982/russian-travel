@@ -15,12 +15,9 @@
 @media screen and (max-width: 768px) {
   .place {
     column-gap: calc( 0.0625*100% - 20px);
-  }
-  
-  .place {
     margin-bottom: 72px;
   }
-  
+
   .place:last-child {
     margin-bottom: 90px;
   }
